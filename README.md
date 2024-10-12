@@ -7,12 +7,12 @@ node.js
 ## Instructions
 
 ## Install-
-**Step 1-** 
+Step 1- 
 ```
 npm install
 ```
 
-**Step 2- **
+Step 2- 
 ```
   cd ml-backend
   pip3 install -r requirement.txt
@@ -26,4 +26,4 @@ Step3-
 
 
 ## Deployment Link-
-https://scam-red.vercel.app/
+https://eco-zap.vercel.app/
