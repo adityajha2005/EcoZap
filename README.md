@@ -1,7 +1,7 @@
 # EcoZap
 
 
-EcoZap is an innovative solution for [brief description of what EcoZap does]. Our mission is to [state the mission or main goal of the project].
+EcoZap is an innovative solution for a Blockchain-powered CO2 tracking system with an automated carbon credit mechanism. Our mission is for the automated credit system aids in reducing carbon emissions.
 
 ## Table of Contents
 
