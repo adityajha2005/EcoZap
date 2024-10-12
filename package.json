@@ -1,5 +1,5 @@
 {
-  "name": "green-chain-pli-hackathon-2.0",
+  "name": "EcoZap",
   "version": "1.0.0",
   "description": "Blockchain-Driven Carbon Management integrates blockchain for transparency, automated credit systems, XDC-20 tokens for carbon trading, AI predictions, user-friendly interfaces, incentives, compliance, and public awareness. Revolutionizing emissions control for a sustainable future.",
   "main": "APP.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tech-creed/Green-Chain-PLI-Hackathon-2.0.git"
+    "url": ""
   },
   "keywords": [],
-  "author": "MUKILAN | TENSH KUMAR",
+  "author": "ADITYA JHA | ADITYA ANJANA | SHRESTH SHROFF",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tech-creed/Green-Chain-PLI-Hackathon-2.0/issues"
+    "url": " "
   },
-  "homepage": "https://github.com/tech-creed/Green-Chain-PLI-Hackathon-2.0#readme",
+  "homepage": "",
   "dependencies": {
     "@openzeppelin/contracts": "^4.9.3",
     "@truffle/hdwallet-provider": "^2.1.15",
