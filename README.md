@@ -6,9 +6,10 @@ EcoZap is an innovative solution for a Blockchain-powered CO2 tracking system wi
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#Contact)
+- [Landing-Page](#Landing-Page)
 
 ## Installation
 
@@ -61,7 +62,7 @@ This project is licensed under the [MIT] License
 
 Project Link: [https://github.com/adityajha2005/EcoZap](https://github.com/adityajha2005/EcoZap)
 
-# Landing Page
+# Landing-Page
 
 ![image](https://github.com/user-attachments/assets/3230e31a-f264-492e-84c9-4a0cc952e1df)
 
