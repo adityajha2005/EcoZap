@@ -23,6 +23,7 @@
     "@truffle/hdwallet-provider": "^2.1.15",
     "cookie-parser": "^1.4.6",
     "dotenv": "^16.3.1",
+    "EcoZap": "file:",
     "ejs": "^3.1.9",
     "express": "^4.21.0",
     "express-fileupload": "^1.4.3",
