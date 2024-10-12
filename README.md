@@ -1,15 +1,16 @@
 # EcoZap
 
-![EcoZap Logo](/path/to/logo.png)
+[Deployment](https://eco-zap.vercel.app/)
 
-EcoZap is an innovative solution for [brief description of what EcoZap does]. Our mission is to [state the mission or main goal of the project].
+EcoZap is an innovative solution for a Blockchain-powered CO2 tracking system with an automated carbon credit mechanism. Our mission is for the automated credit system aids in reducing carbon emissions.
 
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#Contact)
+- [Landing-Page](#Landing-Page)
 
 ## Installation
 
@@ -56,12 +57,14 @@ We welcome contributions to EcoZap! If you'd like to contribute, please follow t
 
 ## License
 
-This project is licensed under the [MIT] License
+This project is licensed under the MIT License
 
 ## Contact
 
 Project Link: [https://github.com/adityajha2005/EcoZap](https://github.com/adityajha2005/EcoZap)
 
-# Landing Page
+# Landing-Page
+
+![image](https://github.com/user-attachments/assets/3230e31a-f264-492e-84c9-4a0cc952e1df)
 
 
