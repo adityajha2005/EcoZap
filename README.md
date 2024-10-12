@@ -57,7 +57,7 @@ We welcome contributions to EcoZap! If you'd like to contribute, please follow t
 
 ## License
 
-This project is licensed under the [MIT] License
+This project is licensed under the MIT License
 
 ## Contact
 
