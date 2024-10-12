@@ -1,0 +1,187 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "industry",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "ipfsUrl",
+						"type": "string"
+					}
+				],
+				"name": "CertificateSubmitted",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "government",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "industry",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "enum KYC.VerificationStatus",
+						"name": "status",
+						"type": "uint8"
+					}
+				],
+				"name": "CertificateVerified",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "certificateCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "certificates",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "ipfsUrl",
+						"type": "string"
+					},
+					{
+						"internalType": "enum KYC.VerificationStatus",
+						"name": "status",
+						"type": "uint8"
+					},
+					{
+						"internalType": "address",
+						"name": "submittedBy",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "verifiedBy",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "industries",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "ipfsUrl",
+						"type": "string"
+					}
+				],
+				"name": "submitCertificate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "industry",
+						"type": "address"
+					},
+					{
+						"internalType": "enum KYC.VerificationStatus",
+						"name": "status",
+						"type": "uint8"
+					}
+				],
+				"name": "verifyCertificate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"KYCprocess.sol": "KYC"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"KYCprocess.sol": {
+			"keccak256": "0x828b032038386f3fc0931f0bcf3866d145ed0f0dbd6b3ca629e340f9bc955e0f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://99c7e3e5e0df9d40bcd0984395cf14f52d3c9e32c04891263538ca64a7b9bee9",
+				"dweb:/ipfs/QmNbt5scNT6YP2RJ8MxtWAvdYBZridrayM8WBUA3N4biZr"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,160 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "wallet_id",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "string",
+						"name": "carbon",
+						"type": "string"
+					},
+					{
+						"indexed": true,
+						"internalType": "string",
+						"name": "date",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "fees",
+						"type": "uint256"
+					}
+				],
+				"name": "EmissionData",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_govId",
+						"type": "address"
+					}
+				],
+				"name": "collectFee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_walletID",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_carbon",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_date",
+						"type": "string"
+					}
+				],
+				"name": "createEmissionData",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dataCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "emmis",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "wallet_id",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "carbon",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "date",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "fees",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Emission.sol": "Emission"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Emission.sol": {
+			"keccak256": "0x6afb8eb07ba42f46f7c2654a3c3b1e965829db900023d6bfa057a1d9eed1fa2b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://08c9bc2c7efb89f713530c667ae4abf77712f47b79667f2540c26e4fbbfeeaeb",
+				"dweb:/ipfs/QmUh1fL9CFkzzLpqR8UBdmSixtdWM6vWjNYq5oHiAT3m4y"
+			]
+		}
+	},
+	"version": 1
+}
