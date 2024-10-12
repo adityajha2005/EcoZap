@@ -1,5 +1,6 @@
 # EcoZap
 
+[Deployment](https://eco-zap.vercel.app/)
 
 EcoZap is an innovative solution for a Blockchain-powered CO2 tracking system with an automated carbon credit mechanism. Our mission is for the automated credit system aids in reducing carbon emissions.
 
