@@ -64,4 +64,6 @@ Project Link: [https://github.com/adityajha2005/EcoZap](https://github.com/adity
 
 # Landing Page
 
+![image](https://github.com/user-attachments/assets/3230e31a-f264-492e-84c9-4a0cc952e1df)
+
 
