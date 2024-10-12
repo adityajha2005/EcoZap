@@ -1,6 +1,5 @@
 # EcoZap
 
-![EcoZap Logo](/path/to/logo.png)
 
 EcoZap is an innovative solution for [brief description of what EcoZap does]. Our mission is to [state the mission or main goal of the project].
 
