@@ -4,3 +4,5 @@ numpy
 pandas
 matplotlib
 flask_cors
+seaborn
+scikit-learn
