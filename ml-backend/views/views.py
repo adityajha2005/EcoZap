@@ -7,8 +7,8 @@ K.clear_session()
 
 from app import *
 
-weekmodel = tf.keras.models.load_model("models/weekPrediction.h5", compile=False)
-monthmodel = tf.keras.models.load_model("models/monthModel.h5", compile=False)
+weekmodel = tf.keras.models.load_model("models/weekPrediction.keras", compile=False)
+monthmodel = tf.keras.models.load_model("models/monthModel.keras", compile=False)
 
 # Input 7 day emission
 # Output next 7 day emission
